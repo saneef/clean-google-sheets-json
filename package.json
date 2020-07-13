@@ -1,0 +1,11 @@
+{
+  "name": "clean-google-sheets-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "meow": "^7.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}

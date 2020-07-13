@@ -2,16 +2,19 @@
 
 ## Usage
 
-1. Prepare your Google Sheet. Clark’s article, [‘How to use Google Sheets as a JSON Endpoint’](https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/) will guide to get JSON endpoint.
+1. Prepare your Google Sheet. Clark’s article, [‘How to use Google Sheets as a JSON Endpoint’](https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/) will guide you on how to get the JSON endpoint.
 2. Check out this project locally, and run `yarn install` or `npm install` inside the directory.
 3. Run `$ ./cli.js <json-end-point-from-step-1>`, and you should get JSON saved as `output.json` in the same folder.
 
+### ⚠️ Note
+
+Currently only supports sheets with first rows as headers. Like CSV.
+
 ### References
 
-[Sample Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9hqMO9iJEgIne_9o-nLTtMR-dG2rWtZiONp2DMo6fhYM0FedwoXE34hbV1R07KfwbXl-WkXbQM9qZ/pubhtml)
-[Sample Sheet JSON endpoint](https://spreadsheets.google.com/feeds/cells/1v6HjlEZAi5Vhkgrcd96JsN34zOpS_aouienqPAVuZAk/1/public/full?alt=json)
-
-Output:
+- [Sample Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9hqMO9iJEgIne_9o-nLTtMR-dG2rWtZiONp2DMo6fhYM0FedwoXE34hbV1R07KfwbXl-WkXbQM9qZ/pubhtml)
+- [Sample Sheet JSON endpoint](https://spreadsheets.google.com/feeds/cells/1v6HjlEZAi5Vhkgrcd96JsN34zOpS_aouienqPAVuZAk/1/public/full?alt=json)
+- Sample output:
 
 ```json
 {
